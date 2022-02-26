@@ -1,0 +1,91 @@
+* {box-sizing:border-box}
+.buttonload {
+  background-color: #04AA6D; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px /* Set a font size */
+  /* Make sure that padding behaves as expected */
+}
+
+   /* Container for skill bars */
+   .container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    }
+
+    .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    }
+
+    .text-center {
+      text-align: center; /* center-align text */
+      }
+
+    .html {width: 90%; background-color: #04AA6D;} /* Green */
+    .css {width: 80%; background-color: #2196F3;} /* Blue */
+    .js {width: 65%; background-color: #f44336;} /* Red */
+    .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+    #myContainer {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: yellow;
+      }
+      
+      #myAnimation {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background: red;
+        border-radius: 25px;
+      }
+
+      #myAnimation2 {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background: rgb(255, 0, 179);
+        border-radius: 25px;
+      }
+
+      .x1 {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border-radius: 50%;
+        margin: 30px;
+        background: #dee4f0;
+      }
+    
+      .x1:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        background:url(E-goi-logo.png) center center no-repeat;
+        background-size: 100px 100px;
+      }
+
+      .x2 {
+        width: 400px;
+        height: 550px;
+        position: relative;
+        border-radius: 5%;
+        margin: 30px;
+        background: #dee4f0;
+      }
+
+      .x2 img {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
